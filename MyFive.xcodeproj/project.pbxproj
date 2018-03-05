@@ -15,6 +15,8 @@
 		C61B9E4C204A287400E9C6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61B9E4A204A287400E9C6B0 /* LaunchScreen.storyboard */; };
 		C61B9E57204A287400E9C6B0 /* MyFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E56204A287400E9C6B0 /* MyFiveTests.swift */; };
 		C61B9E62204A287400E9C6B0 /* MyFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E61204A287400E9C6B0 /* MyFiveUITests.swift */; };
+		C61B9E71204D133600E9C6B0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */; };
+		C61B9E73204D134D00E9C6B0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E72204D134D00E9C6B0 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C61B9E5D204A287400E9C6B0 /* MyFiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61B9E61204A287400E9C6B0 /* MyFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFiveUITests.swift; sourceTree = "<group>"; };
 		C61B9E63204A287400E9C6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C61B9E72204D134D00E9C6B0 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		C61B9E33204A287300E9C6B0 = {
 			isa = PBXGroup;
 			children = (
+				C61B9E74204D168900E9C6B0 /* Images */,
 				C61B9E6F204A295200E9C6B0 /* Controllers */,
 				C61B9E3E204A287300E9C6B0 /* MyFive */,
 				C61B9E55204A287400E9C6B0 /* MyFiveTests */,
@@ -132,8 +137,17 @@
 			children = (
 				C61B9E41204A287300E9C6B0 /* FirstViewController.swift */,
 				C61B9E43204A287300E9C6B0 /* SecondViewController.swift */,
+				C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */,
+				C61B9E72204D134D00E9C6B0 /* FourthViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C61B9E74204D168900E9C6B0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +286,9 @@
 			files = (
 				C61B9E44204A287300E9C6B0 /* SecondViewController.swift in Sources */,
 				C61B9E40204A287300E9C6B0 /* AppDelegate.swift in Sources */,
+				C61B9E71204D133600E9C6B0 /* ThirdViewController.swift in Sources */,
 				C61B9E42204A287300E9C6B0 /* FirstViewController.swift in Sources */,
+				C61B9E73204D134D00E9C6B0 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
