@@ -17,7 +17,7 @@
 		C61B9E62204A287400E9C6B0 /* MyFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E61204A287400E9C6B0 /* MyFiveUITests.swift */; };
 		C61B9E71204D133600E9C6B0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */; };
 		C61B9E73204D134D00E9C6B0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E72204D134D00E9C6B0 /* FourthViewController.swift */; };
-		C67D80BA204E02C100367951 /* PGSQLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67D80B9204E02C100367951 /* PGSQLKit.framework */; };
+		C67D80BC204E03C100367951 /* PGSQLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67D80BB204E03C100367951 /* PGSQLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		C61B9E63204A287400E9C6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		C61B9E72204D134D00E9C6B0 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		C67D80B9204E02C100367951 /* PGSQLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PGSQLKit.framework; path = "../../../Downloads/PGSQLKit-MacOS-9.3.1/PGSQLKit/Library/Frameworks/PGSQLKit.framework"; sourceTree = "<group>"; };
+		C67D80BB204E03C100367951 /* PGSQLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PGSQLKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C67D80BA204E02C100367951 /* PGSQLKit.framework in Frameworks */,
+				C67D80BC204E03C100367951 /* PGSQLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +157,7 @@
 		C67D80B2204DFE2C00367951 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C67D80B9204E02C100367951 /* PGSQLKit.framework */,
+				C67D80BB204E03C100367951 /* PGSQLKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -468,7 +468,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6P2PF9XJ44;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyFive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adingreenfield.MyFive;
@@ -484,7 +487,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6P2PF9XJ44;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyFive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adingreenfield.MyFive;
