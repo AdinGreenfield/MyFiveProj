@@ -66,7 +66,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Vgr-FU-fjf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Fourth" id="ZAe-kG-ecf"/>
+                    <tabBarItem key="tabBarItem" title="Fourth" image="Fourth" landscapeImage="Fourth" largeContentSizeImage="Fourth" selectedImage="Fourth" id="ZAe-kG-ecf">
+                        <inset key="imageInsets" minX="0.0" minY="37" maxX="0.0" maxY="35"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSk-MA-0pc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,7 +142,7 @@
                 <tabBarController title="Fourth" id="49e-Tb-3d3" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
@@ -156,6 +158,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fourth" width="170" height="170"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
