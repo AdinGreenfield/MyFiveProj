@@ -47,7 +47,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--Fourth-->
+        <!--Profile-->
         <scene sceneID="4bF-1t-cYl">
             <objects>
                 <viewController id="azO-SX-6pr" customClass="FourthViewController" customModule="MyFive" customModuleProvider="target" sceneMemberID="viewController">
@@ -66,7 +66,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Vgr-FU-fjf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Fourth" image="Fourth" landscapeImage="Fourth" largeContentSizeImage="Fourth" selectedImage="Fourth" id="ZAe-kG-ecf">
+                    <tabBarItem key="tabBarItem" title="Profile" image="Fourth" selectedImage="Fourth" id="ZAe-kG-ecf">
                         <inset key="imageInsets" minX="0.0" minY="37" maxX="0.0" maxY="35"/>
                     </tabBarItem>
                 </viewController>
