@@ -10,6 +10,7 @@
 		C61246A9204FBA680031A519 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61246AA204FBA680031A519 /* SQLite.framework */; };
 		C61246AB204FBA700031A519 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61246AA204FBA680031A519 /* SQLite.framework */; };
 		C61246AC204FBA700031A519 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C61246AA204FBA680031A519 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C61246AF2050875F0031A519 /* InsertIntoNewChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61246AE2050875F0031A519 /* InsertIntoNewChartViewController.swift */; };
 		C61B9E40204A287300E9C6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E3F204A287300E9C6B0 /* AppDelegate.swift */; };
 		C61B9E42204A287300E9C6B0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E41204A287300E9C6B0 /* FirstViewController.swift */; };
 		C61B9E44204A287300E9C6B0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E43204A287300E9C6B0 /* SecondViewController.swift */; };
@@ -56,6 +57,7 @@
 /* Begin PBXFileReference section */
 		C612469F204FBA560031A519 /* SQLite.swift-master 3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SQLite.swift-master 3.xcodeproj"; path = "../../../.Trash/SQLite 23-31-33-373.swift-master/SQLite.swift-master 3.xcodeproj"; sourceTree = "<group>"; };
 		C61246AA204FBA680031A519 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61246AE2050875F0031A519 /* InsertIntoNewChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertIntoNewChartViewController.swift; sourceTree = "<group>"; };
 		C61B9E3C204A287300E9C6B0 /* MyFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61B9E3F204A287300E9C6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C61B9E41204A287300E9C6B0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				C61B9E43204A287300E9C6B0 /* SecondViewController.swift */,
 				C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */,
 				C6620F89204FAE4D005104A2 /* FourthViewController.swift */,
+				C61246AE2050875F0031A519 /* InsertIntoNewChartViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				C61B9E44204A287300E9C6B0 /* SecondViewController.swift in Sources */,
 				C61B9E40204A287300E9C6B0 /* AppDelegate.swift in Sources */,
 				C61B9E71204D133600E9C6B0 /* ThirdViewController.swift in Sources */,
+				C61246AF2050875F0031A519 /* InsertIntoNewChartViewController.swift in Sources */,
 				C61B9E42204A287300E9C6B0 /* FirstViewController.swift in Sources */,
 				C6620F8A204FAE4D005104A2 /* FourthViewController.swift in Sources */,
 			);
