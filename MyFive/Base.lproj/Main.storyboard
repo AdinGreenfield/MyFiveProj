@@ -98,22 +98,24 @@
             </objects>
             <point key="canvasLocation" x="-736.79999999999995" y="743.47826086956525"/>
         </scene>
-        <!--Insert into new chart-->
+        <!--Insert Into New Chart View Controller-->
         <scene sceneID="mR1-SE-nDE">
             <objects>
-                <viewController title="Insert into new chart" id="KHM-cV-X2L" customClass="InsertIntoNewChartViewController" customModule="MyFive" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KHM-cV-X2L" customClass="InsertIntoNewChartViewController" customModule="MyFive" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ONK-zA-2AZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JV2-AL-bTI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JV2-AL-bTI">
                                 <rect key="frame" x="25" y="121" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SH-V7-oka">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SH-V7-oka">
                                 <rect key="frame" x="25" y="174" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -191,10 +193,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="JV2-AL-bTI" firstAttribute="height" secondItem="3SH-V7-oka" secondAttribute="height" id="LRH-pZ-Mvd"/>
-                            <constraint firstItem="JV2-AL-bTI" firstAttribute="width" secondItem="3SH-V7-oka" secondAttribute="width" id="kq5-cl-Rax"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="zhB-z1-gdg"/>
                     </view>
                 </viewController>
