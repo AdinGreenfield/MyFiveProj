@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61246A9204FBA680031A519 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61246AA204FBA680031A519 /* SQLite.framework */; };
+		C61246AB204FBA700031A519 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61246AA204FBA680031A519 /* SQLite.framework */; };
+		C61246AC204FBA700031A519 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C61246AA204FBA680031A519 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C61B9E40204A287300E9C6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E3F204A287300E9C6B0 /* AppDelegate.swift */; };
 		C61B9E42204A287300E9C6B0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E41204A287300E9C6B0 /* FirstViewController.swift */; };
 		C61B9E44204A287300E9C6B0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E43204A287300E9C6B0 /* SecondViewController.swift */; };
@@ -16,8 +19,7 @@
 		C61B9E57204A287400E9C6B0 /* MyFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E56204A287400E9C6B0 /* MyFiveTests.swift */; };
 		C61B9E62204A287400E9C6B0 /* MyFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E61204A287400E9C6B0 /* MyFiveUITests.swift */; };
 		C61B9E71204D133600E9C6B0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */; };
-		C61B9E73204D134D00E9C6B0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B9E72204D134D00E9C6B0 /* FourthViewController.swift */; };
-		C67D80BC204E03C100367951 /* PGSQLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67D80BB204E03C100367951 /* PGSQLKit.framework */; };
+		C6620F8A204FAE4D005104A2 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6620F89204FAE4D005104A2 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C61246AD204FBA700031A519 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C61246AC204FBA700031A519 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C612469F204FBA560031A519 /* SQLite.swift-master 3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SQLite.swift-master 3.xcodeproj"; path = "../../../.Trash/SQLite 23-31-33-373.swift-master/SQLite.swift-master 3.xcodeproj"; sourceTree = "<group>"; };
+		C61246AA204FBA680031A519 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61B9E3C204A287300E9C6B0 /* MyFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61B9E3F204A287300E9C6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C61B9E41204A287300E9C6B0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -53,8 +71,7 @@
 		C61B9E61204A287400E9C6B0 /* MyFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFiveUITests.swift; sourceTree = "<group>"; };
 		C61B9E63204A287400E9C6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		C61B9E72204D134D00E9C6B0 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		C67D80BB204E03C100367951 /* PGSQLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PGSQLKit.framework; sourceTree = "<group>"; };
+		C6620F89204FAE4D005104A2 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C67D80BC204E03C100367951 /* PGSQLKit.framework in Frameworks */,
+				C61246AB204FBA700031A519 /* SQLite.framework in Frameworks */,
+				C61246A9204FBA680031A519 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C61246A0204FBA560031A519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C61B9E33204A287300E9C6B0 = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +167,7 @@
 				C61B9E41204A287300E9C6B0 /* FirstViewController.swift */,
 				C61B9E43204A287300E9C6B0 /* SecondViewController.swift */,
 				C61B9E70204D133600E9C6B0 /* ThirdViewController.swift */,
-				C61B9E72204D134D00E9C6B0 /* FourthViewController.swift */,
+				C6620F89204FAE4D005104A2 /* FourthViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,7 +182,8 @@
 		C67D80B2204DFE2C00367951 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C67D80BB204E03C100367951 /* PGSQLKit.framework */,
+				C61246AA204FBA680031A519 /* SQLite.framework */,
+				C612469F204FBA560031A519 /* SQLite.swift-master 3.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +198,7 @@
 				C61B9E38204A287300E9C6B0 /* Sources */,
 				C61B9E39204A287300E9C6B0 /* Frameworks */,
 				C61B9E3A204A287300E9C6B0 /* Resources */,
+				C61246AD204FBA700031A519 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +282,12 @@
 			mainGroup = C61B9E33204A287300E9C6B0;
 			productRefGroup = C61B9E3D204A287300E9C6B0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C61246A0204FBA560031A519 /* Products */;
+					ProjectRef = C612469F204FBA560031A519 /* SQLite.swift-master 3.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C61B9E3B204A287300E9C6B0 /* MyFive */,
@@ -300,7 +333,7 @@
 				C61B9E40204A287300E9C6B0 /* AppDelegate.swift in Sources */,
 				C61B9E71204D133600E9C6B0 /* ThirdViewController.swift in Sources */,
 				C61B9E42204A287300E9C6B0 /* FirstViewController.swift in Sources */,
-				C61B9E73204D134D00E9C6B0 /* FourthViewController.swift in Sources */,
+				C6620F8A204FAE4D005104A2 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
