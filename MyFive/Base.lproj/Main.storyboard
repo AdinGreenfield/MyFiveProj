@@ -39,12 +39,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstItem="acZ-tb-cME" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                        <viewLayoutGuide key="safeArea" id="acZ-tb-cME"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                 </viewController>
@@ -65,7 +65,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
-                                    <action selector="createTable:" destination="azO-SX-6pr" eventType="touchUpInside" id="OFP-Sa-tx9"/>
+                                    <action selector="getChartName:" destination="azO-SX-6pr" eventType="touchUpInside" id="OFP-Sa-tx9"/>
                                     <segue destination="KHM-cV-X2L" kind="show" id="bhf-j1-O8E"/>
                                 </connections>
                             </button>
@@ -77,11 +77,11 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Vgr-FU-fjf"/>
+                        <viewLayoutGuide key="safeArea" id="Snd-aw-sHR"/>
                     </view>
                     <navigationItem key="navigationItem" title="Create New Chart" id="ZAH-N0-mRh"/>
                     <connections>
-                        <outlet property="newChart" destination="Xpo-16-PEZ" id="2hl-en-Pyu"/>
+                        <outlet property="newChart" destination="Xpo-16-PEZ" id="VdK-iW-4Ai"/>
                         <segue destination="KHM-cV-X2L" kind="show" id="dxy-ST-FYO"/>
                     </connections>
                 </viewController>
@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="-397.60000000000002" y="743.47826086956525"/>
         </scene>
-        <!--Insert Into New Chart View Controller-->
+        <!--Fourth View Controller-->
         <scene sceneID="mR1-SE-nDE">
             <objects>
-                <viewController id="KHM-cV-X2L" customClass="InsertIntoNewChartViewController" customModule="MyFive" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KHM-cV-X2L" customClass="FourthViewController" customModule="MyFive" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ONK-zA-2AZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,7 +175,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="insert:" destination="KHM-cV-X2L" eventType="touchUpInside" id="CbT-iZ-Y0f"/>
+                                    <action selector="insertNewChart:" destination="KHM-cV-X2L" eventType="touchUpInside" id="DG1-Xh-YN9"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="djP-kK-lTz">
@@ -191,14 +191,14 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="zhB-z1-gdg"/>
+                        <viewLayoutGuide key="safeArea" id="fkv-7P-7Iw"/>
                     </view>
                     <connections>
-                        <outlet property="fifth" destination="OHL-C8-dvQ" id="6rV-wx-K4k"/>
-                        <outlet property="first" destination="PuC-cg-blF" id="CHm-1O-cJY"/>
-                        <outlet property="fourth" destination="JN3-lU-zRV" id="0fd-j0-GhE"/>
-                        <outlet property="second" destination="JJ7-Yf-ASo" id="L9z-Hx-STg"/>
-                        <outlet property="third" destination="zns-HT-qVe" id="rjR-03-tt8"/>
+                        <outlet property="fifth" destination="OHL-C8-dvQ" id="fnW-pv-Cu3"/>
+                        <outlet property="first" destination="PuC-cg-blF" id="jjD-S8-Ohr"/>
+                        <outlet property="fourth" destination="JN3-lU-zRV" id="OFp-Li-hoy"/>
+                        <outlet property="second" destination="JJ7-Yf-ASo" id="7fq-vN-TDC"/>
+                        <outlet property="third" destination="zns-HT-qVe" id="4T7-IE-Q4c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cP5-G3-Qbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -222,7 +222,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="exE-aS-jK6"/>
+                        <viewLayoutGuide key="safeArea" id="mz7-xt-tCC"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Third" id="2wy-7D-FNe"/>
                 </viewController>
@@ -256,10 +256,10 @@
                         <constraints>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
+                            <constraint firstItem="Ei8-dR-K4M" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                        <viewLayoutGuide key="safeArea" id="Ei8-dR-K4M"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
                 </viewController>
@@ -291,43 +291,30 @@
         <scene sceneID="ZEK-Av-zW9">
             <objects>
                 <tableViewController id="J1f-ep-1ix" customClass="ProfileViewController" customModule="MyFive" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="j9d-pF-rXJ">
+                    <tableView key="view" clipsSubviews="YES" contentMode="bottom" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="y7I-lU-Fs6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="125" id="6N8-wl-PNH">
-                                <rect key="frame" x="0.0" y="28" width="375" height="125"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6N8-wl-PNH" id="yJo-Ld-R0K">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="124.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPf-c8-qZd">
-                                            <rect key="frame" x="0.0" y="11" width="375" height="56"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </searchBar>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qoq-yt-buV">
-                                            <rect key="frame" x="0.0" y="67" width="375" height="58"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Create New Chart"/>
-                                            <connections>
-                                                <segue destination="azO-SX-6pr" kind="show" id="Uqu-fH-Bze"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <connections>
-                            <outlet property="dataSource" destination="J1f-ep-1ix" id="AcH-5E-YZs"/>
-                            <outlet property="delegate" destination="J1f-ep-1ix" id="jyS-Jy-7Ne"/>
+                            <outlet property="dataSource" destination="J1f-ep-1ix" id="juq-1l-HdC"/>
+                            <outlet property="delegate" destination="J1f-ep-1ix" id="DJh-wU-pEU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="FTi-3c-fQw"/>
+                    <navigationItem key="navigationItem" id="FTi-3c-fQw">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BkG-0e-aLN">
+                            <rect key="frame" x="126" y="7" width="123" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Create New Chart"/>
+                            <connections>
+                                <segue destination="azO-SX-6pr" kind="show" id="Ook-I4-4NH"/>
+                            </connections>
+                        </button>
+                    </navigationItem>
                     <connections>
                         <segue destination="azO-SX-6pr" kind="show" id="pJz-p3-C8t"/>
+                        <segue destination="azO-SX-6pr" kind="show" id="rTf-Hd-pYd"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sdH-dA-fyw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -348,7 +335,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="J1f-ep-1ix" kind="relationship" relationship="rootViewController" id="RJv-yc-XsF"/>
+                        <segue destination="J1f-ep-1ix" kind="relationship" relationship="rootViewController" id="GZN-Qy-DEV"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xGM-6k-iT3" userLabel="First Responder" sceneMemberID="firstResponder"/>

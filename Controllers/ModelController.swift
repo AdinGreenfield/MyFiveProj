@@ -10,6 +10,6 @@ import Foundation
 
 class ModelController {
     
-    var chartName = " "
+    static var chartName = " "
     
 }
