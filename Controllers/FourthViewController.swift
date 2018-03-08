@@ -41,6 +41,7 @@ class FourthViewController: UIViewController {
         modelController.setChartName(name: newChart!.text!)
         print(modelController.getChartName())
     }
+
     
     @IBAction func insertNewChart(_ sender: Any) {
         
@@ -50,6 +51,8 @@ class FourthViewController: UIViewController {
         
         let somePlaces = ["first", "second", "third", "fourth", "fifth"]
         
+        let chartsTable = Table("charts")
+        
         for index in 0...4 {
             print(someInts[index]!.text!)
             print(somePlaces[index])
@@ -57,11 +60,11 @@ class FourthViewController: UIViewController {
             if(someInts[index]?.text!.isEmpty)!{
                 break;
             }
-            
+    
             let place = somePlaces[index]
             let item = someInts[index]!.text!
             
-            let chartsTable = Table("charts")
+            
             let insertChart = chartsTable.insert(self.userName <- "greenfia", self.chartName <- modelController.getChartName(), self.itemPlace <- place, self.itemName <- item)
             
             do{
