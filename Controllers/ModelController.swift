@@ -12,4 +12,12 @@ class ModelController {
     
     static var chartName = " "
     
+    func getChartName() -> String! {
+        return ModelController.chartName
+    }
+    
+    func setChartName(name: String!){
+        ModelController.chartName = name
+    }
+    
 }
