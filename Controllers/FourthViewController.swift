@@ -25,11 +25,11 @@ class FourthViewController: UIViewController {
     let itemName = Expression<String>("ItemName")
     static var chart: String!
     
-    @IBOutlet weak var first: UITextField!
-    @IBOutlet weak var second: UITextField!
-    @IBOutlet weak var third: UITextField!
-    @IBOutlet weak var fourth: UITextField!
-    @IBOutlet weak var fifth: UITextField!
+    @IBOutlet weak var first: UITextField?
+    @IBOutlet weak var second: UITextField?
+    @IBOutlet weak var third: UITextField?
+    @IBOutlet weak var fourth: UITextField?
+    @IBOutlet weak var fifth: UITextField?
     
     
     @IBAction func getChartName(_ sender: Any) {
@@ -53,6 +53,10 @@ class FourthViewController: UIViewController {
         for index in 0...4 {
             print(someInts[index]!.text!)
             print(somePlaces[index])
+            
+            if(someInts[index]?.text!.isEmpty)!{
+                break;
+            }
             
             let place = somePlaces[index]
             let item = someInts[index]!.text!
